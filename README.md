@@ -1,128 +1,111 @@
-# Priyadharshini S – Projects Portfolio
+# Hi, I'm Priyadharshini
 
-Welcome to my GitHub portfolio.
+B.E. Electronics and Communication Engineering Student
+Aspiring Software Developer | Cloud & DevOps Enthusiast
 
-I am an Electronics and Communication Engineering student with an interest in software development, web technologies, cloud computing and emerging technologies.
-
-This repository showcases my academic projects, web development work, programming practice, and technical skills.
-
----
-
-## Projects
-
-### 1. Frontend Website
-
-A responsive frontend web development project built using HTML, CSS, and JavaScript, focusing on user interface design and interactive web elements.
-
-**Technologies Used**
-- HTML5
-- CSS3
-- JavaScript
-
-**Key Features**
-- Home Page
-- Login Page
-- Gallery
-- New Arrivals
-- Contact Page
-- Interactive web elements
-- Responsive user interface
-
-[View Frontend Website](./Frontend_Website)
+I am an engineering student interested in software development, cloud technologies, DevOps, and emerging technologies. I enjoy building projects, learning new technologies, and improving my problem-solving and programming skills.
 
 ---
 
-### 2. Quantum Secure Blockchain
+## About Me
 
-A project exploring secure communication by integrating Quantum Key Distribution (QKD) based on the BB84 protocol with blockchain technology.
-
-**Technologies Used**
-- Python
-- Qiskit
-- Quantum Key Distribution (QKD)
-- Blockchain
-
-**Key Concept**
-
-The project combines quantum cryptography and blockchain technology to enhance the security and integrity of communication and data.
-
-[View Quantum Secure Blockchain](./Quatum%20secureBlockchain)
-
----
-
-### 3. Mental Health Care
-
-A web-based project focused on developing a digital platform related to mental health support and awareness.
-
-**Technologies Used**
-- HTML
-- CSS
-- JavaScript
-
-**Key Features**
-- User-friendly interface
-- Informational content
-- Interactive web pages
-- Responsive design
-
-[View Mental Health Care](./MentalHealthCare)
-
----
-
-### 4. C Programming
-
-A collection of basic C programming practice and problem-solving exercises developed to strengthen programming fundamentals and logical thinking.
-
-**Technology Used**
-- C
-
-[View Program](./program.c)
+* Pursuing B.E. in Electronics and Communication Engineering
+* Interested in Software Development, Cloud Computing and DevOps
+* Currently improving my Java, SQL and problem-solving skills
+* Interested in Cybersecurity and Quantum Computing
+* Building projects to strengthen my practical development skills
+* Preparing for software development and placement opportunities
 
 ---
 
 ## Technical Skills
 
 ### Programming Languages
-- C
-- Python
-- Java
+
+* Java
+* Python
+* C
 
 ### Web Technologies
-- HTML5
-- CSS3
-- JavaScript
+
+* HTML
+* CSS
+* JavaScript
 
 ### Database
-- SQL
+
+* SQL
 
 ### Tools and Technologies
-- Git
-- GitHub
-- Qiskit
+
+* Git
+* GitHub
+* Qiskit
 
 ### Areas of Interest
-- Software Development
-- Full Stack Development
-- Cloud Computing
-- DevOps
-- Quantum Computing
-- Cybersecurity
+
+* Software Development
+* Cloud Computing
+* DevOps
+* Cybersecurity
+* Quantum Computing
 
 ---
 
-## Career Objective
+## Projects
 
-To begin my career as a software professional where I can apply my programming, problem-solving, and technical skills, continuously learn emerging technologies, and contribute effectively to real-world software projects.
+### Quantum Secured Blockchain Communication System
+
+A project combining Quantum Key Distribution (QKD) using the BB84 protocol with blockchain concepts to improve the security and integrity of communication.
+
+**Technologies:** Python, Qiskit, Blockchain, BB84
+
+Project Link: To be added
+
+---
+
+### Frontend Web Project
+
+A web-based project developed using frontend technologies to demonstrate responsive design, user interaction, and JavaScript functionality.
+
+**Technologies:** HTML, CSS, JavaScript
+
+Project Link: To be added
+
+---
+
+### Mental Health Care Project
+
+A web-based project designed to provide an interactive platform related to mental health support and awareness.
+
+**Technologies:** HTML, CSS, JavaScript
+
+Project Link: To be added
+
+---
+
+## Currently Learning
+
+* Java Programming
+* Object-Oriented Programming
+* Data Structures and Algorithms
+* SQL
+* Cloud Computing
+* DevOps
+* Git and GitHub
+
+---
+
+## Career Goal
+
+I am looking to start my career in a software or technology role where I can apply my programming skills, work on real-world projects, and continuously learn new technologies.
 
 ---
 
 ## Connect With Me
 
-**GitHub:**  
-[Priyadharshini S](https://github.com/priyadharshini2568-art)
+GitHub: https://github.com/priyadharshini2568-art
 
 ---
 
-Thank you for visiting my GitHub portfolio.
-
-Feel free to explore my projects and repositories.
+Thank you for visiting my profile.
