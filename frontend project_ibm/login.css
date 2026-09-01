@@ -1,0 +1,81 @@
+/* Full-page gradient background like Instagram */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Gradient animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Login card */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 30px rgba(0,0,0,0.2);
+    width: 320px;
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Smooth fade-in */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Logo text */
+.login-container h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: #dd2a7b;
+    margin-bottom: 25px;
+}
+
+/* Input fields */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.login-container input:focus {
+    border-color: #dd2a7b;
+    box-shadow: 0 0 5px rgba(221, 42, 123, 0.5);
+}
+
+/* Login button */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    background-size: 300% 300%;
+    animation: gradientBG 6s ease infinite;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    transform: scale(1.05);
+}
