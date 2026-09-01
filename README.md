@@ -10,9 +10,9 @@ I am an engineering student interested in software development, cloud technologi
 ## About Me
 
 * Pursuing B.E. in Electronics and Communication Engineering
-* Interested in Software Development, Cloud Computing and DevOps
+* Interested in Software Development, Cloud Computing 
 * Currently improving my Java, SQL and problem-solving skills
-* Interested in Cybersecurity and Quantum Computing
+* Interested in Quantum Computing
 * Building projects to strengthen my practical development skills
 * Preparing for software development and placement opportunities
 
