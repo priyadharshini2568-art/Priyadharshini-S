@@ -1,0 +1,144 @@
+/* Body and layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a1c4fd;
+  overflow: hidden;
+}
+
+/* Floating background animation */
+.background-animation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #c2e9fb 10%, transparent 10%) repeat;
+  background-size: 50px 50px;
+  animation: moveBg 20s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moveBg {
+  0% { background-position: 0 0; }
+  100% { background-position: 1000px 1000px; }
+}
+
+/* Chat wrapper */
+.chat-wrapper {
+  width: 400px;
+  max-width: 90%;
+  background: rgba(255,255,255,0.95);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: fadeIn 1s ease;
+}
+
+/* Header */
+.chat-header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+/* Chat area */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  height: 450px;
+  padding: 15px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box div {
+  margin: 5px 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 75%;
+  word-wrap: break-word;
+  position: relative;
+  animation: slideIn 0.5s ease;
+}
+
+.user-msg {
+  background: #d1e7dd;
+  align-self: flex-end;
+}
+
+.bot-msg {
+  background: #f8d7da;
+  align-self: flex-start;
+}
+
+/* Emojis */
+.bot-msg.sad::before { content: "😢 "; }
+.bot-msg.happy::before { content: "😄 "; }
+.bot-msg.stressed::before { content: "😰 "; }
+.bot-msg.neutral::before { content: "🙂 "; }
+
+/* Breathing tip card */
+.breathing-card {
+  background: #fff3cd;
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 5px solid #ffc107;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Input area */
+.input-area {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+#user-input {
+  padding: 10px;
+  border: none;
+  flex: 1;
+  font-size: 16px;
+}
+
+#send-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+#send-btn:hover { background: #0056b3; }
+
+/* Animations */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+  .chat-wrapper { width: 95%; }
+  .chat-box { height: 350px; }
+}
