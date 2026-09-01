@@ -2,7 +2,7 @@
 
 Welcome to my GitHub portfolio.
 
-I am an Electronics and Communication Engineering student with an interest in software development, web technologies, cloud computing, DevOps, cybersecurity, and emerging technologies.
+I am an Electronics and Communication Engineering student with an interest in software development, web technologies, cloud computing and emerging technologies.
 
 This repository showcases my academic projects, web development work, programming practice, and technical skills.
 
