@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Section Heading */
+.top-deals {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.top-deals h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #ff5733;
+}
+
+/* Deals Container */
+.deals-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Deal Card */
+.deal-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.deal-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Discount Badge */
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff5733;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.deal-card img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* Product Title */
+.deal-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Price Styling */
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.new-price {
+  color: #27ae60;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5px 0 15px;
+}
+
+/* Button Styling */
+.deal-card button {
+  background: #ff5733;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.deal-card button:hover {
+  background: #e04e2d;
+}
+/* Button */
+

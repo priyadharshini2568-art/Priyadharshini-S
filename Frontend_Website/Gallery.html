@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header>
+    
+    <div class="logo"><b>Celesita Couture🛍️</b></div>
+        <h1>Our Fashion Gallery</h1>
+    
+  </header>
+   
+  <section class="gallery">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTV0Ri3YQb1NfObSEKtwKavdYXLtDFLpm_9Th3FR068a-hXu9H0bl3OcpURTG9lZoVbFGckPkYaatonriDuZQJPQLhkviYPk71ZHid0ncFYClNkMq0rsbrB_A" alt="Product">
+      <h3>Style Quotient Women's Top</h3>
+      <p class="price">₹699</p>
+      <p class="rating">⭐⭐⭐⭐☆ (359)</p>
+      <button onclick="addToCart('NA017','Style Quotient Womens Top',699) ">Add to Cart</button>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS9tXQEQ5CaffcIGW8r0B6sSdwN6ownmBTpdT4H0Kk4k6mccYB_H6vnj7OwIw64lSx3bp7LuiqtQPAA22LT2MO860NfkBvXjA13FjGhCrVMFlX9ivDcOT3F" alt="Product">
+      <h3>Elegant Solid Dress</h3>
+      <p class="price">₹1,954</p>
+      <p class="rating">⭐⭐⭐☆☆ (119)</p>
+      <button onclick="addToCart('NA018','Elegant Solid Dress',1954)">Add to Cart</button>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS5eUNlBEWmUs_n3ND7a6YXQ3sBKYY59rKR3hR9ieR-sNpOaS9J-HUh5htiRuqNadoNt-_6LgFzySoMIZL7KISI1kR4hEx7Y2JCiJM_22Q" alt="Product">
+      <h3>Embroidered Puff Dress</h3>
+      <p class="price">₹687 <span class="old-price">₹2,399</span></p>
+      <p class="rating">⭐⭐⭐☆☆ (54)</p>
+      <button onclick="addToCart('NA019','Embroidered Puff Dress',687 )">Add to Cart</button>
+    </div>
+
+    <!-- Add more cards as needed -->
+     <!-- Card 3 -->
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQq2K_Ettj5hjvOIL60eNdyGoCb5075NoJYbW1mMjKwD3gaWOnExgKaP7Rlc_MqObkif1UWbRN68zCdwPohGlQrdHZMpLugJrlo9rT8KKiXqU5zjBPKzQkqCA" alt="Product">
+      <h3>Shree Women's Embroidered Dupatta Dress</h3>
+      <p class="price">₹2,687 <span class="old-price">₹2,399</span></p>
+      <p class="rating">⭐⭐⭐⭐☆ (54)</p>
+      <button onclick="addToCart('NA020','Shree Womens Embroidered Dupatta Dress',2687)">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQpyhk1eOaPPCIM_DsCgsdo0k_-5JKfQtdHbCRk9iXQNTLXiIhY_N1Fe0rS7PcY6aRfN1ESVZnb3_VHtElQ6b6GhKvWkbeF9Dlkc8BiKPiwb7qwoNcfEdZa" alt="Product">
+      <h3>Max Women's Embroidered Asymmetrical Dress</h3>
+      <p class="price">₹999 <span class="old-price">₹2,000</span></p>
+      <p class="rating">⭐⭐⭐⭐☆ (54)</p>
+      <button onclick="addToCart('NA021','Max Womens Embroidered Asymmetrical Dress',999)">Add to Cart</button>
+    </div>
+     <div class="card">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRsdPXHQZGdH3JulYVKeCmeZjVXi-J_ABMPHaNc5B-QkjsiJg86KwCIVQiNHb3HmvgaExzGGxR6cDuYFxdd7hgXdgZkZPKzGBKYzdf6odM" alt="Product">
+      <h3>Littlebox India Elegant Off-Shoulder Pleated Long-Sleeve Maxi Dress</h3>
+      <p class="price">₹2100 <span class="old-price">₹3465</span></p>
+      <p class="rating">⭐⭐⭐⭐☆ (54)</p>
+      <button onclick="addToCart('NA022','Littlebox India Elegant Off-Shoulder Pleated Long-Sleeve Maxi Dress',2100)">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQP7PE64zB3vPmiszWmz0kwhFtHFgD6VUG3ZbHmPxBx6Mli2aI7-jLz3mZ9U86FUX2z-Y_kX53qKT48Gxamt136umNPCHxi1EupUZlZGTzyx6ygQFf5AvDGeg" alt="Product">
+      <h3>Libas Women's Printed Fit and Flare Dress</h3>
+      <p class="price">₹1780 <span class="old-price">₹2450</span></p>
+      <p class="rating">⭐⭐⭐⭐☆ (54)</p>
+      <button onclick="addToCart('NA023','Libas Womens Printed Fit and Flare Dress',1780) ">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT_Pxe1q-9j4TJkeQ8cpo0p1WXCOLXQsYc_yiHbyFC8jQBj6braTCdnduzREOIcqYCsmY1ALWNk0G-r19xgThg-bpjy2PzShllFcz9myjLEeaVvH0uoOQG9" alt="Product">
+      <h3>Shree Women's Embroidered Round Neck Fit & Flare Dress with Dupatta </h3>
+      <p class="price">₹1600<span class="old-price">₹2800</span></p>
+      <p class="rating">⭐⭐⭐⭐☆ (54)</p>
+      <button onclick="addToCart('NA024','Shree Womens Embroidered Round Neck Fit & Flare Dress with Dupatta',1600) ">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcShrMFooWUyCp9OLGQiCBQg-P1LdvVn5Fi1Pa1hA5zSC_zOk1LhTzp1pKscH6AnY_UgzTyPELHM9GbX4KexM5veYfSBVEAjRoE7vtzvQnXbQHhVzjzI8t6u8Q" alt="Product">
+      <h3>Myntra aayu Self Design A-Line Maxi Tiered Dress </h3>
+      <p class="price">₹699 <span class="old-price">₹2345</span></p>
+      <p class="rating">⭐⭐⭐☆☆ (54)</p>
+      <button onclick="addToCart('NA025','Myntra aayu Self Design A-Line Maxi Tiered Dress',699)">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ-RZHfGxDWsM0m26iGjDA2CCdHfHDklfh_2n1ab4wK2BwaoK81nO8DLJp-eIvJo7wNOlHn1NlphUgdPHXqLLawuHjkQxjArPyvJ4CkbmpXBE0ElRnD46wj" alt="Product">
+      <h3>Littlebox India Floral Print Knotted Spaghetti Strap Cami Dress</h3>
+      <p class="price">₹1699 <span class="old-price">₹2345</span></p>
+      <p class="rating">⭐⭐⭐☆☆ (54)</p>
+      <button onclick="addToCart('NA026','Littlebox India Floral Print Knotted Spaghetti Strap Cami Dress',1699)">Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRX8Aa5OocVtnqkPQGRaDqocHiHQqx8SlrzCsOiTKlWPmtgrEFV9XI7xmvwZiz_02mpbN3fVyLE5qFJC9zqEo2JErufYPQwlg" alt="Product">
+        <h3>Allen Solly Women's Embellished Halter Neck Maxi Dress</h3>
+        <p class="price">₹1599 <span class="old-price">₹2305</span></p>
+        <P class="rating">⭐⭐⭐⭐☆ (359)</P>
+        <button onclick="addToCart('NA027','Allen Solly Womens Embellished Halter Neck Maxi Dress',1599)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1SVc1JMvzTQieWzacxPA-M0Gl3DuP2c6jxIlM2ZUV8MxvKinljwQTCebw8CQRw7xETrh0HO79MyvrR1PU7j07eR3NqSNsQ-K1thAMOGfaXXSxlN-FKnL8yw" alt="Product">
+        <h3>Style Quotient Women's Party Dress</h3>
+        <p class="price">₹C <span class="old-price">₹2345</span></p>
+        <P class="rating">⭐⭐⭐⭐⭐ (410)</P>
+        <button onclick="addToCart('NA028','Style Quotient Womens Party Dress', 1299)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRXYPls3bkNaSB00auShsCmztoenfZ1WJAtHXNVaf70IdcjumDTRTHumvhB_cbGJ8H9jQqGKyNucQeKa8iHOiAQNRdXGtvkvMY4_u6-7NI" alt="Product">
+        <h3>Max Women's Floral Print Midi Dress</h3>
+        <p class="price">₹1299 <span class="old-price">₹2005</span></p>
+        <P class="rating">⭐⭐⭐⭐ (210)</P>
+        <button onclick="addToCart('NA029','Max Womens Floral Print Midi Dress', 1299)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTz5LT3uPLYwKoBqpFFmAp6FnbU4pWQhftFKq_XXsRlUJDYgot2BTFI0oO6KKwsYkzih6jOlW1oO72UX8Wa818-TVLcEEzxMnvz9bZ-UhIBqsLiYGz24CcHUQ" alt="Product">
+        <h3>Style Quotient Women's Casual Top</h3>
+        <p class="price">₹687 <span class="old-price">₹2,399</span></p>
+        <P class="rating">⭐⭐⭐⭐ (189)</P>
+        <button onclick="addToCart('NA030','Style Quotient Womens Casual Top', 687)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTVzMS9qb6zF4Zi8uobKeHAbSxudvMMDNft31gVW4cHqg5xmJTsQ3f_zfdFVYidk9jDgPiRzG8rYJwGBjvbnxwZh8AZfbAjs2aKdBNX5h8l" alt="Product">
+        <h3>Elegant Solid Evening Dress</h3>
+        <p class="price">₹1899 <span class="old-price">₹2845</span></p>
+        <P class="rating">⭐⭐⭐⭐⭐ (119)</P>
+        <button onclick="addToCart('NA031','Elegant Solid Evening Dress', 1899)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSgmfyRQakh7ZAA4VB7EiK3DOcaCM2N_p4oKt3101wlF2xe6zU3FjU-psMCws-oQ0iRqZcr7XK8Gjnqm4X_P4o-l6U5Bcgy9IP8Qz9rKvS39C4wGrslgAxPHg" alt="Product">
+        <h3>Shree Women's Embroidered Kurti</h3>
+        <p class="price">₹2099 <span class="old-price">₹4345</span></p>
+        <P class="rating">⭐⭐⭐⭐ (150)</P>
+        <button onclick="addToCart('NA032','Shree Womens Embroidered Kurti',2099)">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSm2wPs6jC-HF4u5ZmEgmfxrBptPwzI27at-dWVicNvYwogcYjMxZbFOeI0MCV10VSiTOx-RI7ePKIN23bZh5qaAYH0v39l5WHywHg7FBY" alt="Product">
+        <h3>Shree Women's Embroidered Kurti</h3>
+        <p class="price">₹1699 <span class="old-price">₹2345</span></p>
+        <P class="rating">⭐⭐⭐⭐ (150)</P>
+        <button onclick="addToCart('NA033','Shree Womens Embroidered Kurti',1699)">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR-4lk9hIjrDndr8S5ar0K9AZVNOZadIOlNy2g5UavpIJEANkkSFX5cwlxi46v4SzcFD3gzxEnXPmkYenN14Yx6RXSErY_x2lFDmKnHXlaW" alt="Product">
+        <h3>Shree Women's Embroidered Kurti</h3>
+        <p class="price">₹2999 <span class="old-price">₹5345</span></p>
+        <P class="rating">⭐⭐⭐⭐ (150)</P>
+        <button onclick="addToCart('NA034','Shree Womens Embroidered Kurti',2999)">Add to Cart</button>
+      </div>
+      
+      <a href="your cart.html"class="btn">GO TO CART </a>
+      <script src="homepage.js"></script>
+
+  </section>
+</body>
+</html>
