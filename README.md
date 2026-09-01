@@ -1,20 +1,21 @@
-# Hi, I'm Priyadharshini
+# Hi, I'm Priyadharshini S
 
-B.E. Electronics and Communication Engineering Student
-Aspiring Software Developer | Cloud & DevOps Enthusiast
+### B.E. Electronics and Communication Engineering Student
+### Aspiring Software Developer | Cloud & DevOps Enthusiast
 
-I am an engineering student interested in software development, cloud technologies, DevOps, and emerging technologies. I enjoy building projects, learning new technologies, and improving my problem-solving and programming skills.
+I am an Electronics and Communication Engineering student with an interest in software development, web technologies, cloud computing, DevOps, cybersecurity, and emerging technologies. I enjoy developing practical projects, strengthening my programming and problem-solving skills, and continuously learning new technologies.
 
 ---
 
 ## About Me
 
-* Pursuing B.E. in Electronics and Communication Engineering
-* Interested in Software Development, Cloud Computing 
-* Currently improving my Java, SQL and problem-solving skills
-* Interested in Quantum Computing
-* Building projects to strengthen my practical development skills
-* Preparing for software development and placement opportunities
+- Pursuing B.E. in Electronics and Communication Engineering
+- Interested in Software Development, Cloud Computing, and DevOps
+- Developing programming skills in Java, Python, and C
+- Currently improving my knowledge of SQL, Data Structures, and Object-Oriented Programming
+- Interested in Cybersecurity and Quantum Computing
+- Building practical projects to strengthen my development and problem-solving skills
+- Preparing for software development and technology-based career opportunities
 
 ---
 
@@ -22,90 +23,126 @@ I am an engineering student interested in software development, cloud technologi
 
 ### Programming Languages
 
-* Java
-* Python
-* C
+- Java
+- Python
+- C
 
 ### Web Technologies
 
-* HTML
-* CSS
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 ### Database
 
-* SQL
+- SQL
 
 ### Tools and Technologies
 
-* Git
-* GitHub
-* Qiskit
+- Git
+- GitHub
+- Qiskit
 
 ### Areas of Interest
 
-* Software Development
-* Cloud Computing
-* DevOps
-* Cybersecurity
-* Quantum Computing
+- Software Development
+- Full Stack Development
+- Cloud Computing
+- DevOps
+- Cybersecurity
+- Quantum Computing
 
 ---
 
 ## Projects
 
-### Quantum Secured Blockchain Communication System
+### 1. Quantum Secured Blockchain Communication System
 
-A project combining Quantum Key Distribution (QKD) using the BB84 protocol with blockchain concepts to improve the security and integrity of communication.
+A project that explores secure communication by integrating Quantum Key Distribution (QKD) based on the BB84 protocol with blockchain technology.
 
-**Technologies:** Python, Qiskit, Blockchain, BB84
+The project focuses on combining quantum cryptography and blockchain concepts to improve the security, confidentiality, and integrity of communication and data.
 
-Project Link: To be added
+**Technologies:** Python, Qiskit, Quantum Key Distribution, BB84 Protocol, Blockchain
 
----
-
-### Frontend Web Project
-
-A web-based project developed using frontend technologies to demonstrate responsive design, user interaction, and JavaScript functionality.
-
-**Technologies:** HTML, CSS, JavaScript
-
-Project Link: To be added
+**Project:**  
+[View Quantum Secured Blockchain Project](./Quatum%20secureBlockchain)
 
 ---
 
-### Mental Health Care Project
+### 2. Frontend Web Project
 
-A web-based project designed to provide an interactive platform related to mental health support and awareness.
+A frontend web development project created using HTML, CSS, and JavaScript. The project demonstrates webpage design, navigation, user interaction, responsive layouts, and JavaScript-based functionality.
 
-**Technologies:** HTML, CSS, JavaScript
+**Features:**
 
-Project Link: To be added
+- Home Page
+- Login Page
+- Gallery
+- New Arrivals
+- Contact Page
+- Interactive web elements
+- Responsive user interface
+
+**Technologies:** HTML5, CSS3, JavaScript
+
+**Project:**  
+[View Frontend Web Project](./Frontend_Website)
+
+---
+
+### 3. Mental Health Care Project
+
+A web-based project designed to provide an interactive digital platform related to mental health support and awareness.
+
+The project focuses on creating a simple and user-friendly interface with informational content and interactive web pages.
+
+**Features:**
+
+- User-friendly interface
+- Informational content
+- Interactive web pages
+- Responsive design
+
+**Technologies:** HTML5, CSS3, JavaScript
+
+**Project:**  
+[View Mental Health Care Project](./MentalHealthCare)
+
+---
+
+### 4. C Programming Practice
+
+A collection of C programming exercises focused on developing programming fundamentals and problem-solving skills.
+
+The programs cover basic programming concepts and logical problem-solving exercises.
+
+**Technology:** C
+
+**Program:**  
+[View C Program](./program.c)
 
 ---
 
 ## Currently Learning
 
-* Java Programming
-* Object-Oriented Programming
-* Data Structures and Algorithms
-* SQL
-* Cloud Computing
-* DevOps
-* Git and GitHub
+- Java Programming
+- Object-Oriented Programming
+- Data Structures and Algorithms
+- SQL
+- Cloud Computing
+- DevOps
+- Git and GitHub
 
 ---
 
-## Career Goal
+## Career Objective
 
-I am looking to start my career in a software or technology role where I can apply my programming skills, work on real-world projects, and continuously learn new technologies.
-
----
-
-## Connect With Me
-
-GitHub: https://github.com/priyadharshini2568-art
+To begin my career as a software professional where I can apply my programming and problem-solving skills, contribute to real-world projects, and continuously develop my technical knowledge. I am interested in opportunities that allow me to work with modern software, cloud, and emerging technologies.
 
 ---
 
-Thank you for visiting my profile.
+## Repository Overview
+
+This GitHub profile contains academic and personal projects developed as part of my learning journey in software development and emerging technologies. The projects demonstrate my experience with programming, frontend development, quantum technologies, and problem-solving.
+
+Thank you for visiting my GitHub profile.
